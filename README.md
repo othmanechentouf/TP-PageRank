@@ -66,4 +66,4 @@ Les résultats sont affichés dans le tableau ci-dessous :
        
 # Conclusions 
 
-On peut dire que les résultat sont assez proches, mais en augmentant le nombre des noeuds, on peut voir que PySpark a de meilleur résultats que PIG
+On peut dire que les résultats sont assez proches, mais en augmentant le nombre des noeuds, on peut voir que PySpark a de meilleurs résultats que PIG
