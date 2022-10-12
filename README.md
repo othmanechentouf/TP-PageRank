@@ -57,3 +57,10 @@ Même chose ici, j'ai commencé avec 2 Noeuds, puis 3, 4 et 5 Noeuds à la fin.
 Les résultats sont affichés dans le tableau ci-dessous : 
 
 
+| Nombre des noeuds  | Temps écoulé
+| ------------------ | -----------------|
+|         2          | 43min 35sec      |
+|         3          | 40min 22sec      |
+|         4          | 37min 5sec       |
+|        5           | 33 min 27sec     |
+       
