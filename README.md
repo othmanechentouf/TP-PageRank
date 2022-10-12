@@ -17,16 +17,16 @@ le code source utilisé c'est dataproc.py et le lancement des commandes sur gc e
 
 * Création du Cluster (soit manuellement sur le service google ou soit avec cette commande avec le même project ID) : 
 
-    gcloud dataproc clusters create cluster-a35a --enable-component-gateway --region europe-west1 --zone europe-west1-c --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 2.0-debian10 --project pagerank-365311
+        gcloud dataproc clusters create cluster-a35a --enable-component-gateway --region europe-west1 --zone europe-west1-c --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 2.0-debian10 --project pagerank-365311
 
 
 * et on lance la commande : 
 
-    gcloud dataproc jobs submit pig --region europe-west1 --cluster cluster-a35a -f gs://tp_pagerank/dataproc.py
+        gcloud dataproc jobs submit pig --region europe-west1 --cluster cluster-a35a -f gs://tp_pagerank/dataproc.py
 
 * Après la fin du commande, on exécutera la commande suivante pour vider le dossier : 
 
-    gsutil rm -rf gs://tp_pagerank/out
+        gsutil rm -rf gs://tp_pagerank/out
 
 
 J'ai commencé avec 2 Noeuds, puis 3, 4 et 5 Noeuds à la fin.
@@ -48,7 +48,7 @@ Les résultats sont affichés dans le tableau ci-dessous :
 * le code source utilisé c'est pagerank_notype.py et le lancement des commandes sur gc est le suivant :
 
 
-    gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a gs://tp_pagerank/pagerank_notype.py  -- gs://tp_pagerank/page_links_en.nt.bz2 3
+        gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a gs://tp_pagerank/pagerank_notype.py  -- gs://tp_pagerank/page_links_en.nt.bz2 3
 
 
 
