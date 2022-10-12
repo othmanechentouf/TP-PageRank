@@ -64,6 +64,6 @@ Les résultats sont affichés dans le tableau ci-dessous :
 |         4          | 37min 5sec       |
 |        5           | 29 min 23sec     |
        
-#Conclusions 
+# Conclusions 
 
 On peut dire que les résultat sont assez proches, mais en augmentant le nombre des noeuds, on peut voir que PySpark a de meilleur résultats que PIG
