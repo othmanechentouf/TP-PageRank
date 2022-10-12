@@ -62,5 +62,5 @@ Les résultats sont affichés dans le tableau ci-dessous :
 |         2          | 43min 35sec      |
 |         3          | 40min 22sec      |
 |         4          | 37min 5sec       |
-|        5           | 33 min 27sec     |
+|        5           | 29 min 23sec     |
        
